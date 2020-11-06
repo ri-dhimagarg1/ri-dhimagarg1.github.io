@@ -9,135 +9,141 @@
     <title style="font-size: 18px;">Ridhima Garg</title>
     <link rel="icon" href="img/fav1.png" type="image/x-icon">
     <!----link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-
-    <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Icomoon Icon Fonts-->
-	  <link rel="stylesheet" href="css/icomoon.css">
-
-
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
 
 </head>
 
 <body style="font-family: 'Open Sans', sans-serif; font-size: 16px; color: black;">
-        <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header" style="font-family: 'Open Sans', sans-serif; font-size: 16px;">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Ridhima Garg</a>
-                  </div>
-              
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></i></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="certificates.html">Certifications</a></li>
-                            <li><a href="https://github.com/ridhimagarg">Github</a></li>
-                            <li><a href="Ridhima_Resume.pdf" target="blank">Download CV</a></li>
-                    </ul>
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
 
-              
-</div>
-<br>
-<br>
-<div class="container-fluid">
-    <div class="row">
-        <h2 style="text-align: center">Projects</h2>
-    </div>
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <li><a href="">Data Extraction from Email</a></li>
-            <p>This is specifically for Insurance domain. In this handled mainly 8 entities to be recognized. These entities are -: </p>
-            <p>
-            <ul>
-                <li>Name</li>
-                <li>Email</li>
-                <li>Address</li>
-                <li>Phone numbers</li>
-                <li>Age</li>
-                <li>Policy years</li>
+  <nav class="navbar navbar-expand-lg navbar-transparent navbar-light mb-4" style="background-color: #fafafa;">
+    <div class="container position-relative">
+        <a class="navbar-brand mr-lg-5" href="../../index.html">
+            <!-- <img class="navbar-brand-dark" src="../../assets/img/brand/light.svg" alt="pixel logo">
+            <img class="navbar-brand-light" src="../../assets/img/brand/dark.svg" alt="pixel logo"> -->
+            <h2>Ridhima Garg</h2>
+        </a>
+        <div class="navbar-collapse collapse" id="navbar-default-primary">
+            <div class="navbar-collapse-header">
+                <div class="row">
+                    <div class="col-6 collapse-brand">
+                       <a class="navbar-brand mr-lg-5" href="../../index.html">
+                            <img class="navbar-brand-dark" src="../../assets/img/brand/light.svg" alt="pixel logo">
+                            <img class="navbar-brand-light" src="../../assets/img/brand/dark.svg" alt="pixel logo">
+                        </a>
+                    </div>
+                    <div class="col-6 collapse-close">
+                        <i class="fas fa-times" data-toggle="collapse" role="button"
+                            data-target="#navbar-default-primary" aria-controls="navbar-default-primary"
+                            aria-expanded="false" aria-label="Toggle navigation"></i>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-nav ml-auto text-black font-weight-bold">
+
+                <li class="nav-item">
+                    <a href="../../index.html" class="nav-link"><h4>About</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a href="projects.html" class="nav-link"><h4>Projects</h4></a>
+              </li>
+              <li class="nav-item">
+                <a href="moocs.html" class="nav-link"><h4>MOOCS</h4></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><h4>Blogs</h4></a>
+          </li>
+
             </ul>
-            </p>
-            <p><b>For Name detection, build an algorithm using windowing technique with count vectorizer.</b><br>
-            NER model involvement is also there for finding number entities like age, policy price etc, for which we have used spacy library.</p>
-            <li><a href="">Product Visualization Using Machine Learning</a></li>
-            <p>The idea behind this project to overcome the drawbacks of traditional system for e-commerce system. It involves the classification model with similarity model. It involves the following sub tasks.</p>
-            <p>
-              <ul>
-                <li>Category based classification for 5 classes</li>
-                <li>Color based classification for 5 colors</li>
-                <li>Similarity model</li>
-                <li>Cloth fit type prediction</li>
-              </ul>
-            </p>
-            <p>Models which were tried are SVM, Logistic Classifier, CNN. <b>F1-Score of </b> </p>
-            <li><a href="">Churn/Defaultee Prediction for insurance</a></li>
-            <p>Analyzed loan data which has <b>1M records</b> to predict churn and defaulters. Feature engineering of around 100 features, used <b>PCA and manual intervention</b> to generate and reduced features.</p>
-            <p><b>Logistic Regression outperform with accuracy of 94%.</b></p>
-            <li><a href="">No Show of Patients</a></li>
-            <p>This if for Appointments data of doctor and patient and have to identify will this patient show up on the taken date. Analyzed <b>0.2M </b> data points, out of which only <b>14% were no show patients</b>. </p>
-            <p><b>Logistic Regression outperform with oversampling with accuracy of 83%</b></p>
-            <li><a href ="">Amazon Product Review Sentiment Analysis</a></li>
-            <p>This is for sentiment analysis for baby products review of 1M large dataset. Model build used to do binary classification. I have used Tf-Idf, Count vectorizer technique as features input.</p>
-            <li><a href="">Time Series Analysis for Retail Store</a></li>
-            <p>Predicted sales for Retail Store for 7 market and 3 segments. For all premutation of market and segment sales is predicted using <b>ARIMA</b> model. <b>Windowing Technique, lagging, decomposition, trend analysis</b> is been applied in order to get better prediction. </p>
-            <li><a href="">Chatbots (Industry specific tasks)</a></li>
-            <p>Built insurance related chatbot which collects data from user in order to generate quick quote for <b>Worker's Compensation</b> insurance.<br> Built using <b>dialogflow</b> of google.</p>
-            <li><a href="">Automatic Certificate Generation</a></li>
-            <p><b>Generating certificates for multiple students</b> taken up same training with <b>QR Code</b> embedded. Uploading CSV files for student with their details and saving pdfs into system directory.<br> It works for single student certificate generation as well.</p>
-            <li><a href="">School ERP (MVC Codeigniter[PHP])</a></li>
-            <p>SchoolERP provides a suite of software covering all parts of a schools' administration, managing registration and admissions, from behaviour and achievement [As part of CCE in Examination module], managing Library, Fee, Accounts, Front - Office, Inventory, Time Table, Infirmary, Hostel & Mess, HR & Payroll and Transport . Complete application is created in such a manner that at almost all possible places, you may play with records in your style, you may create master records as per your need. Application is ready to be integrated with any third party device, viz. Biometric Attendance Machine, Barcode Scanner etc.</p>
+        </div>
+    </div>
+</nav>
+<div class="container">
+<div class="row" style="margin-top:15px;">
+  <div class="col-md-4" style="margin-top:10px;">
+    <div class="card bg-primary border-light shadow-soft">
+      <img src="img/voicenet.jpg" class="card-img-top rounded-top" alt="Voicenet" height="260" width="400">
+      <div class="card-body">
+        <span class="h6 icon-tertiary small"><span class="fas fa-circle-notch mr-2"></span>Speech Processing, Machine Learning</span>
+        <h3 class="h5 card-title mt-3">Voicenet</h3>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary btn-sm">Github</a>
         
-          </div>
-        <div class="col-md-2"></div>
-    </div>
-</div>
-
-<footer id="fh5co-footer" style="margin-top: -285px;">
-  <div class="container">
-    <div class="row copyright">
-      <div class="col-md-12 text-center">
-        <p>
-          <ul class="fh5co-social-icons">
-              <li><a href="mailto: garg.ridhima72@gmail.com"><img src="img/PNG/mail4.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/ridhima-garg/"><img src="img/icomoon/PNG/github.png"></a></li>
-              <li><a href="https://github.com/ridhimagarg"><img src="img/icomoon/PNG/linkedin.png"></a></li>
-          </ul>
-        </p>
       </div>
+  </div>
+</div>
+<div class="col-md-4" style="margin-top:10px;">
+  <div class="card bg-primary border-light shadow-soft">
+    <img src="img/toxic-comments.jpg" class="card-img-top rounded-top" alt="Themesberg office" height="260" width="400">
+    <div class="card-body">
+      <span class="h6 icon-tertiary small"><span class="fas fa-circle-notch mr-2"></span>Machine Learning, Classification</span>
+      <h3 class="h5 card-title mt-3">Toxic Comment Classification</h3>
+      <p class="card-text"></p>
+      <a href="https://github.com/ridhimagarg/Toxic-Comment-Classification" class="btn btn-primary btn-sm">Github</a>
+      
     </div>
 </div>
-</footer>
+</div>
+<div class="col-md-4" style="margin-top:10px;">
+  <div class="card bg-primary border-light shadow-soft">
+    <img src="img/chatbot.jpg" class="card-img-top rounded-top" alt="Themesberg office" height="260" width="400">
+    <div class="card-body">
+      <span class="h6 icon-tertiary small"><span class="fas fa-circle-notch mr-2"></span>Machine Learning, Chatbot, Natural Language Processing</span>
+      <h3 class="h5 card-title mt-3">IBM Assistant Application</h3>
+      <p class="card-text"></p>
+      <a href="#" class="btn btn-primary btn-sm">Github</a>
+      
+    </div>
+</div>
+</div>
+<div class="col-md-4" style="margin-top:10px;">
+  <div class="card bg-primary border-light shadow-soft">
+    <img src="img/dataenhancer.jpeg" class="card-img-top rounded-top" alt="Themesberg office" height="260" width="400">
+    <div class="card-body">
+      <span class="h6 icon-tertiary small"><span class="fas fa-circle-notch mr-2"></span>Machine Learning, Natural Language Processing</span>
+      <h3 class="h5 card-title mt-3">Data Enhancer</h3>
+      <p class="card-text">
+      Leveraged the BERT model of Question and Answering for an independent product that collects dynamic information based on the context of Textual description.</p>     
+    </div>
+</div>
+</div>
+<div class="col-md-4" style="margin-top:10px;">
+  <div class="card bg-primary border-light shadow-soft">
+    <img src="img/assistant.jpeg" class="card-img-top rounded-top" alt="Themesberg office" height="260" width="400">
+    <div class="card-body">
+      <span class="h6 icon-tertiary small"><span class="fas fa-circle-notch mr-2"></span>Machine Learning, Natural Language Processing</span>
+      <h3 class="h5 card-title mt-3">Virtual Assistant</h3>
+      <p class="card-text">
+        Automated quote generation with Virtual Assistant build using RASA for Agents over Software(Insurance Portal).
+        <br><br><br>
+      </p>     
+    </div>
+</div>
+</div>
+<div class="col-md-4" style="margin-top:10px;">
+  <div class="card bg-primary border-light shadow-soft">
+    <img src="img/noshow.jpg" class="card-img-top rounded-top" alt="Themesberg office" height="260" width="400">
+    <div class="card-body">
+      <span class="h6 icon-tertiary small"><span class="fas fa-circle-notch mr-2"></span>Machine Learning, Natural Language Processing</span>
+      <h3 class="h5 card-title mt-3">No Show Patients</h3>
+      <p class="card-text">
+        Automated prediction of patient showing up on appointment's date. Analyzed 0.2M data points, out of which only 14% were no show patients.
+        <br><br>
+      </p>     
+    </div>
+</div>
+</div>
+</div>
+</div>
 
-    <!-- jQuery -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-
-
-    <!--  custom script -->
-    <script src="js/custom.js"></script>
 
 </body>
-
 </html>
