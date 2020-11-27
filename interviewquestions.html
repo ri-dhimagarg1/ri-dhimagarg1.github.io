@@ -104,9 +104,14 @@
                                 </div>
                                 
                             </div>
+                            <!--Question1-->
                             <p class="lead"><b>Q1. Why cost function used for linear regression cannot be used for logistic regression?</b></p>
-                            <p class="lead">Mean Squared Error(Cost function) which is used for linear regression will be a very ziggly plot for sigmoid function(for cost function) used in logistic regression. It will not be able to converge and stuck in local minimas. </p>
-
+                            <p class="lead">Mean Squared Error(Cost function) which is used for linear regression will be a very ziggly plot(non-convex function) for sigmoid function(for cost function) used in logistic regression. It will not be able to converge and stuck in local minimas. </p>
+                            <p class="text-center"><img src="img/blogs/costfunctionlr1.png"/></p>
+                            <!--Question2-->
+                            <p class="lead"><b>Q2. Why cost function of logistic regression has log term?</b></p>
+                            <p class="lead">Simple sigmoid function will be a non-convex function so while taking derivative it will be a ziggly plot. Hence, higher chances of stucking into local minima before reaching global minimum.</p>
+                            <p class="text-center"><img src="img/blogs/q2costfunction.png"></p>
                     </div>
 
                     
