@@ -113,13 +113,28 @@
                             <p class="lead">Simple sigmoid function will be a non-convex function so while taking derivative it will be a ziggly plot. Hence, higher chances of stucking into local minima before reaching global minimum.</p>
                             <p class="text-center"><img src="img/blogs/q2costfunction.png"></p>
                             <!--Question3-->
-                            <p class="lead"><b>Q3. How to choose no. of trees in Random Forest?</b></p>
-                            <p class="lead">Generally, higher the no. of trees is good but a practice is to limit till 200 or 300(depends on # datapoints as well). As you will increase the no. of trees, it will take more time and there is a chance of incease in biasness because for no. of samples(randomly selected) for a tree is the possibility of repition.</p>
+                            <p class="lead"><b>Q3. What is gini index and how is it used in decision trees?</b></p>
+                            <p class="lead">In layman terms, Gini index is a statistical dispersion which measures the inequality or uncertainity in a block. In terms of decision tree, It will check the purity/homogenity of a node which helps in splitting on that node.
+                                <b>Higher the gini index, higher the homogenity. Below diagram shows how to calculate gini index</b>
+                            </p>
+                            <p class="text-center"><img src="img/blogs/q3giniindexformula.png"><br><br> Here p: success and q:failure</p>
+                            <p class="text-center"><img src="img/blogs/q3calculategini.png"><br>
+                                <a href="https://www.analyticsvidhya.com/blog/2016/04/tree-based-algorithms-complete-tutorial-scratch-in-python/">References -> Analytics Vidhya</a>
+                            </p>
                             <!--Question4-->
-                            <p class="lead"><b>Q4. How to choose weights for trees in random forest?</b></p>
+                            <p class="lead"><b>Q4. What is Information Gain and Entropy?</b></p>
+                            <p class="lead">Entropy is a measure of the uncertainity associated with a set of probabilities. Information gain and entropy is inversely related. If higher entropy then low information gain is required i.e, node is pure.</p>
+                            <!--Question5-->
+                            <p class="lead"><b>Q5. How to choose no. of trees in Random Forest?</b></p>
+                            <p class="lead">Generally, higher the no. of trees is good but a practice is to limit till 200 or 300(depends on # datapoints as well). As you will increase the no. of trees, it will take more time and there is a chance of incease in biasness because for no. of samples(randomly selected) for a tree is the possibility of repition.</p>
+                            <!--Question6-->
+                            <p class="lead"><b>Q6. How to choose weights for trees in random forest?</b></p>
                             <p class="lead">In random forest, each tree is equally weighted as they are trained on p random features.This ensures that each tree is grown such that -:</p>
                             <p>1. Reduce Variance - Does not overfit the training data</p>
                             <p>2. Reduce biasness- Generalise better to new data</p>
+                            <!--Question7-->
+                            <p class="lead">Q7. Why exponential function(e) is used in recomputing the weights of data points in Adaboost algorithm?</p>
+                            <p class="lead">It dec</p>
                         </div>
 
                     
